@@ -10,6 +10,7 @@
 - Trees
   - Binary Tree
   - Binary Search Tree
+- Graphs
 
 ---
 ### Algorithms
@@ -20,6 +21,7 @@
   - Binary Search  
 - Recursion
 - Dynamic Programming
+- Greedy
 
 ---
 ### Upcoming Contests
