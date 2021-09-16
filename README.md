@@ -27,4 +27,4 @@
 ### Upcoming Contests
 | Contest Name    |    Contest Date        |   Type |        
 |:---------------:|:----------------------:|:------:|
-| UKIEPC | 30th Oct (provisional)| Team |
+| [UKIEPC](http://ukiepc.info/) | 30th Oct (provisional)| Team |
