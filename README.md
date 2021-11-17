@@ -24,7 +24,3 @@
 - Greedy
 
 ---
-### Upcoming Contests
-| Contest Name    |    Contest Date        |   Type |        
-|:---------------:|:----------------------:|:------:|
-| [UKIEPC](http://ukiepc.info/) | 30th Oct (provisional)| Team |
