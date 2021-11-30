@@ -5,6 +5,6 @@ Please provide relevant information about the issue.
 What is the current behaviour?
 
 ## Expected Behaviour
-Please describe the behavior you are expecting
+Please describe the behaviour you are expecting
 
 ## Optional (code snippet / screenshots)
