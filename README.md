@@ -4,7 +4,7 @@
 ## Kattis
 
 | # |       Problem ID                                              |  Difficulty |  Solution | Time | Space |
-|---|:-------------------------------------------------------------:| :----------:|:---------:|:----:|:------:|
+|:--:|:-------------------------------------------------------------:| :----------:|:---------:|:----:|:------:|
 |1|[hello](https://open.kattis.com/problems/hello)|1.2|[solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/hello)|`O(1)`|`O(1)`|
 |2|[oddecho](https://open.kattis.com/problems/oddecho) |1.3| solution |   |   | 
 |3|[pot](https://open.kattis.com/problems/pot) |1.3| [solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/pot)|`O(n)`|`O(1`|
