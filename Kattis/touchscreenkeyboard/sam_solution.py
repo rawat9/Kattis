@@ -39,11 +39,12 @@ if __name__ == '__main__':
                 'asdfghjkl',
                 'zxcvbnm']
     n = input()
-    typed_w, k = input().split()
-    sc_words = []
-    for i in range(int(k)):
-        sc_words.append(input())
-    solution(k, typed_w, sc_words)
+    for _ in range(int(n)):
+        typed_w, k = input().split()
+        sc_words = []
+        for _ in range(int(k)):
+            sc_words.append(input())
+        solution(k, typed_w, sc_words)
 
 '''
 INPUT:
@@ -58,4 +59,5 @@ edc
 rfv
 plm
 qed
+
 '''
