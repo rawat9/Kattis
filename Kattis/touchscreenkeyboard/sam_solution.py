@@ -1,50 +1,45 @@
 # source: https://open.kattis.com/problems/touchscreenkeyboard
-def create_dict(keyboard):
-    coord_dict_l = {}
-    x = -1
-    y = -1
 
-    for string in keyboard:
-        y+=1
-        for letter in string:
-            x+=1
-            if letter==string[0]:
-                x=0
-            coord_dict_l[letter] = x,y
-    return coord_dict_l
-
-
-def distance_l_to_l(l1, l2, keyboard):
-    coord_dict_l = create_dict(keyboard)
-    x1,y1 = coord_dict_l.get(l1)
-    x2,y2 = coord_dict_l.get(l2)
-    return abs(x1-x2)+abs(y1-y2) 
+def l_coordinates(word, counter):
+    if counter == len(word):
+        return letters_coordinates
+    else:
+        letter = word[counter]
+        if letter in keyboard[0]:  # row 1
+            letters_coordinates.append((0, keyboard[0].find(letter)))
+        if letter in keyboard[1]:  # row 2
+            letters_coordinates.append((1, keyboard[0].find(letter)))
+        if letter in keyboard[2]:  # row 3
+            letters_coordinates.append((2, keyboard[0].find(letter)))
+        return l_coordinates(word, counter+1)
 
 
 def distance_w_to_w(typed_w, w2):
-    d = 0
-    for i in range(len(typed_w)):
-        d += distance_l_to_l(typed_w[i], w2[i], keyboard)
-    return d, w2
+    # distance = 0
+    print(l_coordinates(w2, 0))
+    print(l_coordinates(typed_w, 0))
+    for p1, p2 in zip(l_coordinates(w2, 0), l_coordinates(typed_w, 0)):
+        print(p1, p2)
 
 
-def solution(k, typed_w, sc_words):
-    lst = [distance_w_to_w(typed_w, sc_words[i]) for i in range(int(k))]
-    for d,w2 in sorted(lst):
-        print(f'{w2} {d}')
+# def solution(k, typed_w, sc_words):
+#     lst = [distance_w_to_w(typed_w, sc_words[i]) for i in range(int(k))]
+#     for d, w2 in sorted(lst):
+#         print(f'{w2} {d}')
 
 
 if __name__ == '__main__':
-    keyboard = ['qwertyuiop',
-                'asdfghjkl',
-                'zxcvbnm']
-    n = input()
-    for _ in range(int(n)):
-        typed_w, k = input().split()
-        sc_words = []
-        for _ in range(int(k)):
-            sc_words.append(input())
-        solution(k, typed_w, sc_words)
+    keyboard = 'qwertyuiop asdfghjkl zxcvbnm'.split()
+    print(keyboard)
+    print('DISTANCE:', distance_w_to_w('epc', 'sci'))
+
+    # n = input()
+    # for _ in range(int(n)):
+    #     typed_w, k = input().split()
+    #     sc_words = []
+    #     for _ in range(int(k)):
+    #         sc_words.append(input())
+    #     solution(k, typed_w, sc_words)
 
 '''
 INPUT:
