@@ -27,3 +27,4 @@
 |20|[exam](https://open.kattis.com/problems/exam)|1.8|[solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/exam)|`O(n)`|`O(1)`|
 |21|[touchscreenkeyboard](https://open.kattis.com/problems/touchscreenkeyboard)|2.0|[solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/touchscreenkeyboard)|||
 |22|[recount](https://open.kattis.com/problems/recount)|2.0|[solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/recount)|   |   |
+|23|[hidden](https://open.kattis.com/problems/hidden)|2.2.|[solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/hidden)| | |
