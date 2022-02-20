@@ -84,3 +84,4 @@
 [digitswap](https://open.kattis.com/problems/digitswap)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/digitswap)
 [echoechoecho](https://open.kattis.com/problems/echoechoecho)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/echoechoecho)
 [hidden](https://open.kattis.com/problems/hidden)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/hidden)|
+[avion](https://open.kattis.com/problems/avion)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/avion)
