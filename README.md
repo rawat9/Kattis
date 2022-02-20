@@ -83,3 +83,4 @@
 [dicecup](https://open.kattis.com/problems/dicecup)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/dicecup)
 [digitswap](https://open.kattis.com/problems/digitswap)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/digitswap)
 [echoechoecho](https://open.kattis.com/problems/echoechoecho)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/echoechoecho)
+[hidden](https://open.kattis.com/problems/hidden)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/hidden)|
