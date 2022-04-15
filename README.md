@@ -1,4 +1,15 @@
-### CP-prep
+<h1 align="center">Kattis 🐱</h1>
+<p align="center">
+  <a href="https://discord.gg/XCXH2GRn">
+    <img alt="Discord" src="https://img.shields.io/discord/899646522667450428">
+  </a>
+  <img src="https://img.shields.io/badge/language-Python%20%7C%20Java-blue?color=blue">
+    <a href="https://github.com/rawat9/dsa-prep/blob/main/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
+  </a>
+</p>
+
+> Solutions for algorithm-based questions on Kattis in various different languages.
 
 
 |   Problem ID    |  Solution |
@@ -85,3 +96,9 @@
 [echoechoecho](https://open.kattis.com/problems/echoechoecho)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/echoechoecho)
 [hidden](https://open.kattis.com/problems/hidden)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/hidden)|
 [avion](https://open.kattis.com/problems/avion)|[Solution](https://github.com/rawat9/dsa-prep/tree/main/Kattis/avion)
+
+## 📝 License
+
+This project is [MIT](https://github.com/rawat9/dsa-prep/blob/main/LICENSE) licensed.
+
+---
